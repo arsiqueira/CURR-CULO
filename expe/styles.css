@@ -130,8 +130,9 @@ body {
 
 .card .content .desc {
     font-size: 14px;
-    font-weight: 100;
-    /*opacity: .8;*/
+    font-weight: bold;
+   /* font-weight: 100;
+    opacity: .8;*/
     margin-top: 8px;
 }
 
@@ -196,8 +197,9 @@ body {
 
 .card-2 .content .desc {
     font-size: 14px;
-    font-weight: 100;
-    /*opacity: .8;*/
+    font-weight: bold;
+    /* font-weight: 100;
+    opacity: .8;*/
     margin-top: 8px;
 }
 
