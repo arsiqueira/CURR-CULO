@@ -1,0 +1,73 @@
+.foto {
+  margin-top: 2rem;
+  width: 30%;
+  margin-left: 7%;
+  animation-duration: 3s;
+  animation-name: slidein;
+
+}
+
+@keyframes slidein {
+  from {
+    margin-left: 100%;
+    width: 70%
+  }
+
+  to {
+    margin-left: 7%;
+    width: 30%;
+  }
+}
+
+
+h1 {
+  color: white;
+}
+
+.foto_cont {
+  width: 35%;
+
+}
+
+@media (max-width: 920px) {
+  .foto_cont {
+    visibility: hidden;
+  }
+
+  h1 {
+    font-size: 120%;
+  }
+
+  label {
+    font-size: 90%;
+  }
+
+  .label-email {
+    font-size: 85%;
+  }
+  .label-endereco{
+    font-size: 90%;
+  }
+
+  .foto {
+    margin-top: 0.5rem;
+    width: 85%;
+    margin-left: 8%;
+    animation-duration: 3s;
+    animation-name: slidein;
+
+  }
+
+  @keyframes slidein {
+    from {
+      margin-left: 100%;
+      width: 100%
+    }
+
+    to {
+      margin-left: 8%;
+      width: 85%;
+    }
+  }
+
+}

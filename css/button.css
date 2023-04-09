@@ -1,0 +1,46 @@
+.button {
+    position: relative;
+    padding: 15px 40px;
+    background: #fff;
+    color: #E69793;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-weight: 500;
+    font-size: 1.2rem;
+    letter-spacing: 2px;
+    transition: 0.5s;
+    border-radius: 1rem;
+
+
+}
+
+.button:hover {
+    background: #eea6a2;
+    color: #E69793;
+    letter-spacing: 4px;
+}
+
+@media (max-width: 920px) {
+    .button {
+        position: relative;
+        padding: 15px 40px;
+        background: #fff;
+        color: #E69793;
+        text-decoration: none;
+        text-transform: uppercase;
+        font-weight: 200;
+        font-size: 1rem;
+        letter-spacing: 2px;
+        transition: 0.5s;
+        border-radius: 1rem;
+        display: flex;
+        width: 100% !important;
+        height: 80% !important;
+    }
+
+    .button:hover {
+        background: #eea6a2;
+        color: #E69793;
+        letter-spacing: 4px;
+    }
+}
