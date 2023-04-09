@@ -41,6 +41,10 @@ label{
     animation-duration: 1.5s;
     animation-name: conte;
 }
+label{
+  color: white;
+  font-size: 0.9rem;
+}
 
 @keyframes conte {
   from {

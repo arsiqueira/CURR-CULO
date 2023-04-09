@@ -122,6 +122,7 @@ nav .menu-btn i {
         left: 3.5%;
         z-index: -1;
         margin-top: 0.5rem;
+        font-size: 0.9rem;
     }
 
     .balao:before {
