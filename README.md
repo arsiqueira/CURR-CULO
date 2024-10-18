@@ -1,3 +1,3 @@
 # CURR-CULO
 
-https://arsiqueira.github.io/CURRICULARO/
+https://arsiqueira.github.io/curriculo/
